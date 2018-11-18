@@ -4,34 +4,6 @@ var tbody = d3.select("tbody");
 var tableData = data;
 //console.log(tableData);
 
-data.forEach(function(alienSighting) {
-   console.log(alienSighting);
- });
-
-data.forEach(function(alienSighting) {
-   console.log(alienSighting);
-   var row = tbody.append("tr");
- });
-
-data.forEach(function(alienSighting) {
-   console.log(alienSighting);
-   var row = tbody.append("tr");
-
-   Object.entries(alienSighting).forEach(function([key, value]) {
-     console.log(key, value);
-   });
- });
-
-data.forEach(function(alienSighting) {
-   console.log(alienSighting);
-   var row = tbody.append("tr");
-
-   Object.entries(alienSighting).forEach(function([key, value]) {
-     console.log(key, value);
-     var cell = tbody.append("td");
-   });
- });
-
 data.forEach(function(weatherReport) {
    console.log(weatherReport);
    var row = tbody.append("tr");
